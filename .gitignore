@@ -13,7 +13,8 @@
 # these rules might exclude image files for figures etc.
 # *.ps
 # *.eps
-# *.pdf
+# I included the following so that any repositoried texts will not be downloaded, as they could easily hog all the space!
+  *.pdf
 
 ## Bibliography auxiliary files (bibtex/biblatex/biber):
 *.bbl
@@ -124,3 +125,6 @@ sympy-plots-for-*.tex/
 # WinEdt
 *.bak
 *.sav
+
+# I also will include any .txt file here so anyone using this stuff has to download texts manually
+*.txt
