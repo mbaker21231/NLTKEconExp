@@ -14,7 +14,7 @@
 # *.ps
 # *.eps
 # I included the following so that any repositoried texts will not be downloaded, as they could easily hog all the space!
-  *.pdf
+*.pdf
 
 ## Bibliography auxiliary files (bibtex/biblatex/biber):
 *.bbl
