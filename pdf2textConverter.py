@@ -1,3 +1,10 @@
+from pdfminer.pdfinterp import PDFResourceManager, PDFPageInterpreter
+from pdfminer.converter import TextConverter
+from pdfminer.layout import LAParams
+from pdfminer.pdfpage import PDFPage
+from io import StringIO
+import os # Merely so we can easily get to the local document repository
+
 def pdf2textConverter(path):
     rsrcmgr = PDFResourceManager()
     retstr = StringIO()
